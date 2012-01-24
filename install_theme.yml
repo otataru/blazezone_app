@@ -1,0 +1,8 @@
+---
+content_path: !!null 
+partials: {}
+index_path: index.html
+stylesheet_dir: public/assets
+image_dir: public/assets
+javascript_dir: public/assets
+no_sass: false
