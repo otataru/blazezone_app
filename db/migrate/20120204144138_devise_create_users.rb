@@ -10,7 +10,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
       # t.encryptable
       # t.confirmable
       # t.lockable :lock_strategy => :failed_attempts, :unlock_strategy => :both
-      # t.token_authenticatable
+      ett.token_authenticatable
 
 
       # Uncomment below if timestamps were not included in your original model.

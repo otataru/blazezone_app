@@ -15,7 +15,7 @@ class Ability
       can :read, Post
       can :read, Comment
       can :create, Comment
-      can :update, Comment do |comment|
+      can :manage, Comment do |comment|
         comment.try(:user) == user || user.role?(:moderator)
       end
     end
