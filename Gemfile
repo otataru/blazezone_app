@@ -49,4 +49,6 @@ group :development, :test do
   gem 'factory_girl'
   gem 'factory_girl_rails'
   gem 'autotest'
+  gem 'database_cleaner'
+#  gem 'annotate' , 
 end
